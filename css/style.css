@@ -205,5 +205,8 @@ h5 {
   .bottom-img {
     left: 8.3rem;   
   }
+  #header {
+    height: auto !important;  
+  }
 }
 /* header end */ 
