@@ -286,6 +286,9 @@ p{
   p{
     font-size: 1.3rem;   
   } 
+  #food-contant {   
+    background-position-y: 180px;                                                                                                                                                                                             
+  }  
 }
 /* food contant ends */ 
 
