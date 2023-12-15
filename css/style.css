@@ -14,7 +14,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: var(--primary-font);
-  /* border: 1px solid green; */
+  /* border: 1px solid green;  */                                  
 }
 html {
   font-size: 62.5%;
@@ -27,39 +27,46 @@ h4,
 h5 {
   font-family: var(--secondary-font) !important;
 }
+.padding{
+  padding: 100px 0;    
+}
+h3{                                                 
+  font-size: 5.5rem;   
+  font-weight: 800;  
+  line-height: 65px;  
+  color: var(--red-col);
+}
+h3 span{
+  color: #42170d;      
+}
+h4{
+  font-size: 2.4rem;    
+  font-weight: 800;  
+  color: #42170d;             
+}
+h4 span{
+  color: #ff5559;   
+}
+p{
+  color: #42170d;
+  font-size: 1.6rem;   
+}
 
 /* header starts */
-#header {
-  background-color: var(--red-col);
-  width: 100%;
-  height: 93vh;
-  position: relative;
-  z-index: 1;
-}
-#header::after {
-  content: " ";
-  background-image: url(../images/foodtruck2-slider-bg.png);
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-position: top center;
-  background-repeat: no-repeat;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
-}
 .navbar {
   position: relative;
   z-index: 20;
 }
+.navbar-brand img {       
+  width: 70% ;                    
+} 
 .nav-item {
   position: relative;
   transition: 0.5s;
   margin: 0 15px;
   padding: 0 7px;
 }
-.nav-item .nav-link {
+.nav-item .nav-link {  
   color: var(--white-col);
   font-size: 1.6rem;
   line-height: 28px;
@@ -102,50 +109,22 @@ h5 {
   transition: all 0.3s ease-in-out;
   background-color: var(--yellow-col);
 }
-
-/* banner */
-.banner {
-  position: relative;
-  z-index: 10;
+.add-me {                                          
+  transition: 0.3s ease-in-out;
+  background-color: var(--red-col);    
+  opacity: .97;                     
+  box-shadow: 0rem 0rem 1rem 0.1rem rgba(0, 0, 0, 0.13); 
+  padding-bottom: 0.12rem;      
+  padding-top: 0 !important; 
+} 
+.add-me .nav-item .nav-link{
+  line-height: 52px;                                                          
 }
-.banner h4 {
-  font-size: 2rem;
-  font-weight: 800;
-}
-.banner h2 {
-  font-size: 7.5rem;
-  font-weight: 800;
-  line-height: 76px;
-}
-.banner p {
-  font-size: 1.4rem;
-  font-weight: 400;
-  line-height: 21px;
-}
-.banner .btn {
-  background: var(--white-col);
-  /* border: 0; */
-  color: var(--brown-col);
-  border-radius: inherit;
-  border: 3px solid var(--brown-col);
-  padding: 13px 19px;
-  font-size: 1.4rem;
-  font-weight: 700;
-  box-shadow: 4px 4px rgb(164 43 43);
-}
-.banner .btn:hover {
-  color: var(--white-col);
-  background-color: var(--brown-col);
-  transform: translateY(1px);
-  transition: 0.4s linear;
-}
-.bottom-img {
-  position: absolute;
-  bottom: 0;
-  left: 15rem;
-}
-
-@media only screen and (max-width: 991px) {
+.add-size{    
+  width: 25% !important;  
+} 
+                                                
+@media only screen and (max-width: 991px){  
   .nav-menu {
     position: fixed;
     z-index: 20;
@@ -181,14 +160,76 @@ h5 {
     -webkit-transform: translateY(-8px) rotate(-45deg);
     transform: translateY(-8px) rotate(-45deg);
   }
-  .navbar-brand img {
-    width: 40% !important;
-  }
+ .navbar-brand img {       
+    width: 40% ;              
+  }                       
   .nav-item.active::after,
   .nav-item:hover::after {
     width: inherit !important;
   }
+}
+/* header ends */   
 
+/* banner starts */ 
+.banner {                          
+  background-color: var(--red-col);         
+  width: 100%;
+  height: 93vh;     
+  padding-top: 210px;     
+  position: relative;    
+  z-index: 10;                         
+}
+.banner::after {
+  content: " ";
+  background-image: url(../images/foodtruck2-slider-bg.png);
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}  
+.banner h4 {
+  font-size: 2rem;
+  font-weight: 800;
+}
+.banner h2 {
+  font-size: 7.5rem;
+  font-weight: 800;
+  line-height: 76px;
+}
+.banner p {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 21px;
+  max-width: 350px;                  
+}
+.banner .btn {
+  background: var(--white-col);
+  color: var(--brown-col);
+  border-radius: inherit;
+  border: 3px solid var(--brown-col);
+  padding: 13px 19px;
+  font-size: 1.4rem;
+  font-weight: 700;
+  box-shadow: 4px 4px rgb(164 43 43);
+}
+.banner .btn:hover {
+  color: var(--white-col);
+  background-color: var(--brown-col);
+  transform: translateY(1px);
+  transition: 0.4s linear;
+}
+.bottom-img {
+  position: absolute; 
+  bottom: 0;
+  left: 15rem;
+}
+
+@media only screen and (max-width: 991px) {          
   .banner h4 {
     font-size: 1.4rem;
   }
@@ -202,11 +243,49 @@ h5 {
     font-size: 1.2rem;
     box-shadow: inherit !important;
   }
-  .bottom-img {
-    left: 8.3rem;   
+  .bottom-img {  
+    left: 8rem;   
   }
-  #header {
+  .banner {
     height: auto !important;  
+    padding-top: 110px;         
   }
 }
-/* header end */ 
+/* banner ends */   
+
+/* food contant starts */
+#food-contant {   
+  width: 100%;
+  /* height: 90vh;      */  
+  background-color: #fef9eb;             
+  background-image: url(../images/foodtruck2-sectionbg-1.png);           
+  background-repeat: no-repeat;          
+  background-size: contain;   
+  background-position: center;    
+  background-position-y: 250px;                                                                                                                                                                                          
+}  
+#food-contant .food-box{
+  border: 1px dashed #cccc; 
+  padding: 80px 40px 60px;         
+}             
+#food-contant .max-width{ 
+  max-width: 550px;              
+}
+.custom-width{     
+  max-width: 1200px;           
+}
+
+@media only screen and (max-width:767px) {      
+  h3{                                                 
+    font-size: 3.3rem;    
+    line-height: 39px;  
+  }                               
+  h4{
+    font-size: 1.4rem;                
+  }                               
+  p{
+    font-size: 1.3rem;   
+  } 
+}
+/* food contant ends */ 
+
