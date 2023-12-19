@@ -38,7 +38,8 @@ h3{
   color: var(--red-col);
 }
 h3 span{
-  color: #42170d !important;      
+  color: #42170d !important;     
+  font-family: var(--secondary-font) !important;   
 }
 h4{
   font-size: 2.4rem;    
@@ -48,6 +49,12 @@ h4{
 h4 span{
   color: #ff5559;   
 }
+h5{
+  font-size: 2.4rem; 
+  font-weight: 800; 
+  line-height: 34px;  
+  color: #42170d; 
+} 
 p{
   color: #42170d;
   font-size: 1.6rem;   
@@ -346,6 +353,45 @@ p{
 }
 /* our special ends */            
 
+/* place sec starts */
+#place-sec{
+  background: var(--yellow-col);          
+}
+#place-sec .place-btn{
+  box-shadow: 4px 4px 0 0 rgba(120,10,52,0.3) !important;      
+  transform: inherit;      
+  padding: 9px 23px;      
+  border-width: .35rem;                                   
+}
+#place-sec .place-box{               
+  border: 2px solid #42170d;   
+  color: #42170d;  
+}
+#place-sec .place-name span{
+  font-size: 1.6rem; 
+} 
+#place-sec .place-name{
+  border-left: 2px solid #42170d; 
+}
+#place-sec .locate-icon .bi{            
+  font-size: 28px;  
+}
 
-
+@media only screen and (max-width:767px){
+  .map-box{
+    text-align: center; 
+  }
+  .map-box p{
+    width: 100% !important;  
+  }
+  h5{
+    font-size: 1.8rem;  
+  } 
+  #place-sec .place-name{
+    border-left: 0 !important; 
+    margin-top: 8px;
+    text-align: center; 
+  } 
+}
+/* place sec ends */  
 
