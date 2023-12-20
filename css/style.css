@@ -503,8 +503,8 @@ p {
 
 /* menu banner starts */        
 .menu-banner {
-  height: 93vh !important;     
-}
+  height: 100vh !important;     
+} 
 .menu-banner::after {                                                   
   background-image: url(../images/foodtruck2-section-bg2.png); 
 }
@@ -513,6 +513,9 @@ p {
   font-size: 2.4rem; 
 }
 @media only screen and (max-width:991px){
+  .menu-banner {
+    height: 93vh !important;     
+  } 
   h1{
     font-size: 5.4rem; 
     line-height: 54px;  
