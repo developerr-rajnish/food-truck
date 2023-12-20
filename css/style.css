@@ -534,6 +534,16 @@ p {
   background-position: center;   
   position: relative;                                                
 }
+.menu-our-special .second-menu-left-sec{
+  background-image: url(../images/foodtruck2-menu-pic4.webp) !important;  
+}
+.menu-our-special .third-menu-left-sec{
+  background-image: url(../images/foodtruck2-menu-pic3.webp) !important;  
+}
+.menu-our-special .fourth-menu-left-sec{ 
+  background-image: url(../images/foodtruck2-menu-pic5.webp) !important;   
+}
+
 .menu-our-special .menu-left-sec .side-price{
   background-color: var(--red-col); 
   width: 240px;   
