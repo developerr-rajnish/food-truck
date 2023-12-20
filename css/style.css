@@ -14,9 +14,9 @@
   padding: 0;
   box-sizing: border-box;
   font-family: var(--primary-font);
-  /* border: 1px solid green;  */                                  
+  /* border: 1px solid green;  */
 }
-html {  
+html {
   font-size: 62.5%;
   font-family: var(--primary-font);
 }
@@ -27,37 +27,37 @@ h4,
 h5 {
   font-family: var(--secondary-font) !important;
 }
-.padding{
+.padding {
   padding-top: 100px;
-  padding-bottom: 100px;  
+  padding-bottom: 100px;
 }
-h3{                                                  
-  font-size: 5.5rem;   
-  font-weight: 800;  
-  line-height: 65px;  
+h3 {
+  font-size: 5.5rem;
+  font-weight: 800;
+  line-height: 65px;
   color: var(--red-col);
 }
-h3 span{
-  color: #42170d !important;     
-  font-family: var(--secondary-font) !important;   
+h3 span {
+  color: #42170d !important;
+  font-family: var(--secondary-font) !important;
 }
-h4{
-  font-size: 2.4rem;    
-  font-weight: 800;  
-  color: #42170d;             
-}
-h4 span{
-  color: #ff5559;   
-}
-h5{
-  font-size: 2.4rem; 
-  font-weight: 800; 
-  line-height: 34px;  
-  color: #42170d; 
-} 
-p{
+h4 {
+  font-size: 2.4rem;
+  font-weight: 800;
   color: #42170d;
-  font-size: 1.6rem;   
+}
+h4 span {
+  color: #ff5559;
+}
+h5 {
+  font-size: 2.4rem;
+  font-weight: 800;
+  line-height: 34px;
+  color: #42170d;
+}
+p {
+  color: #42170d;
+  font-size: 1.6rem;
 }
 
 /* header starts */
@@ -65,16 +65,16 @@ p{
   position: relative;
   z-index: 20;
 }
-.navbar-brand img {       
-  width: 70% ;                    
-} 
+.navbar-brand img {
+  width: 70%;
+}
 .nav-item {
   position: relative;
   transition: 0.5s;
   margin: 0 15px;
   padding: 0 7px;
 }
-.nav-item .nav-link {  
+.nav-item .nav-link {
   color: var(--white-col);
   font-size: 1.6rem;
   line-height: 28px;
@@ -117,22 +117,22 @@ p{
   transition: all 0.3s ease-in-out;
   background-color: var(--yellow-col);
 }
-.add-me {                                          
+.add-me {
   transition: 0.3s ease-in-out;
-  background-color: var(--red-col);    
-  opacity: .97;                     
-  box-shadow: 0rem 0rem 1rem 0.1rem rgba(0, 0, 0, 0.13); 
-  padding-bottom: 0.12rem;      
-  padding-top: 0 !important; 
-} 
-.add-me .nav-item .nav-link{
-  line-height: 52px;                                                          
+  background-color: var(--red-col);
+  opacity: 0.97;
+  box-shadow: 0rem 0rem 1rem 0.1rem rgba(0, 0, 0, 0.13);
+  padding-bottom: 0.12rem;
+  padding-top: 0 !important;
 }
-.add-size{    
-  width: 25% !important;  
-} 
-                                                
-@media only screen and (max-width: 991px){  
+.add-me .nav-item .nav-link {
+  line-height: 52px;
+}
+.add-size {
+  width: 25% !important;
+}
+
+@media only screen and (max-width: 991px) {
   .nav-menu {
     position: fixed;
     z-index: 20;
@@ -168,24 +168,24 @@ p{
     -webkit-transform: translateY(-8px) rotate(-45deg);
     transform: translateY(-8px) rotate(-45deg);
   }
- .navbar-brand img {       
-    width: 40% ;              
-  }                       
+  .navbar-brand img {
+    width: 40%;
+  }
   .nav-item.active::after,
   .nav-item:hover::after {
     width: inherit !important;
   }
 }
-/* header ends */   
+/* header ends */
 
-/* banner starts */ 
-.banner {                          
-  background-color: var(--red-col);         
+/* banner starts */
+.banner {
+  background-color: var(--red-col);
   width: 100%;
-  height: 93vh;     
-  padding-top: 210px;     
-  position: relative;    
-  z-index: 10;                         
+  height: 93vh;
+  padding-top: 210px;
+  position: relative;
+  z-index: 10;
 }
 .banner::after {
   content: " ";
@@ -199,7 +199,7 @@ p{
   top: 0;
   left: 0;
   z-index: -1;
-}  
+}
 .banner h4 {
   font-size: 2rem;
   font-weight: 800;
@@ -213,32 +213,32 @@ p{
   font-size: 1.4rem;
   font-weight: 400;
   line-height: 21px;
-  max-width: 350px;                  
+  max-width: 350px;
 }
-.btn {             
+.btn {
   background: var(--white-col);
   color: var(--brown-col);
   border-radius: inherit;
-  border: 3px solid var(--brown-col); 
+  border: 3px solid var(--brown-col);
   padding: 13px 19px;
-  font-size: 1.4rem; 
+  font-size: 1.4rem;
   font-weight: 700;
-  box-shadow: 4px 4px rgb(164 43 43);   
+  box-shadow: 4px 4px rgb(164 43 43);
 }
 .btn:hover {
   color: var(--white-col);
   background-color: var(--brown-col);
   transform: translateY(1px);
-  transition: 0.4s linear; 
-  border-color: var(--brown-col);                         
+  transition: 0.4s linear;
+  border-color: var(--brown-col);
 }
 .bottom-img {
-  position: absolute; 
+  position: absolute;
   bottom: 0;
   left: 15rem;
 }
 
-@media only screen and (max-width: 991px) {          
+@media only screen and (max-width: 991px) {
   .banner h4 {
     font-size: 1.4rem;
   }
@@ -252,146 +252,152 @@ p{
     font-size: 1.2rem;
     box-shadow: inherit !important;
   }
-  .bottom-img {  
-    left: 8rem;   
+  .bottom-img {
+    left: 8rem;
   }
   .banner {
-    height: auto !important;  
-    padding-top: 110px;         
+    height: auto !important;
+    padding-top: 110px;
   }
 }
-/* banner ends */   
+/* banner ends */
 
 /* food contant starts */
-#food-contant {   
+#food-contant {
   width: 100%;
-  /* height: 90vh;      */  
-  background-color: #fef9eb;             
-  background-image: url(../images/foodtruck2-sectionbg-1.png);           
-  background-repeat: no-repeat;          
-  background-size: contain;   
-  background-position: center;    
-  background-position-y: 250px;                                                                                                                                                                                          
-}  
-#food-contant .food-box{
-  border: 1px dashed #cccc; 
-  padding: 80px 40px 60px;         
-}             
-#food-contant .max-width{ 
-  max-width: 550px;              
+  /* height: 90vh;      */
+  background-color: #fef9eb;
+  background-image: url(../images/foodtruck2-sectionbg-1.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-position-y: 250px;
 }
-.custom-width{     
-  max-width: 1200px;           
+#food-contant .food-box {
+  border: 1px dashed #cccc;
+  padding: 80px 40px 60px;
+}
+#food-contant .max-width {
+  max-width: 550px;
+}
+.custom-width {
+  max-width: 1200px;
 }
 
-@media only screen and (max-width:767px) {             
-  h3{                                                 
-    font-size: 3.3rem;    
-    line-height: 39px;  
-  }                               
-  h4{
-    font-size: 1.4rem;                
-  }                               
-  p{
-    font-size: 1.3rem;   
-  } 
-  #food-contant {   
-    background-position-y: 180px;                                                                                                                                                                                             
-  }  
+@media only screen and (max-width: 767px) {
+  h3 {
+    font-size: 3.3rem;
+    line-height: 39px;
+  }
+  h4 {
+    font-size: 1.4rem;
+  }
+  p {
+    font-size: 1.3rem;
+  }
+  #food-contant {
+    background-position-y: 180px;
+  }
 }
-/* food contant ends */ 
+/* food contant ends */
 
-/* our special starts */  
- #our-special .food-img{  
-  background-size: cover;  
-  background-position: center;           
-  background-repeat: no-repeat;                    
- }
- #our-special .food1{                                                
-  background-image: url(../images/foodtruck2-menu-pic4.webp);        
- }   
- #our-special .food2{ 
-  background-image: url(../images/foodtruck2-menu-pic3.webp);         
- }   
- #our-special .food3{ 
-  background-image: url(../images/foodtruck2-menu-pic5.webp);        
- }     
+/* our special starts */
+#our-special .food-img {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#our-special .food1 {
+  background-image: url(../images/foodtruck2-menu-pic4.webp);
+}
+#our-special .food2 {
+  background-image: url(../images/foodtruck2-menu-pic3.webp);
+}
+#our-special .food3 {
+  background-image: url(../images/foodtruck2-menu-pic5.webp);
+}
 
-#our-special .right-sec{      
-  max-width: 550px;                
-  margin: 0 auto;          
-}                                
-#our-special .price-box{  
-  border: 2px dashed #cccc;                        
-  padding: 20px 30px 5px;                  
-}                                    
-#our-special .price-box:hover{            
-  border-color: var(--red-col) !important;                              
+#our-special .right-sec {
+  max-width: 550px;
+  margin: 0 auto;
 }
-#our-special .left-sec{   
-  background-color: var(--red-col);         
+#our-special .price-box {
+  border: 2px dashed #cccc;
+  padding: 20px 30px 5px;
 }
-#our-special .price-border{                  
-  width: 100%;                       
-  box-shadow: 4px 4px #d3b9c2;    
-  font-size: 1.6rem;    
-  padding: 8px 0px;          
-  transform: inherit;   
-  border-width: .35rem;                                             
-}         
-#our-special span{
-  color: var(--red-col); 
-}     
-#our-special .fix-height{ 
-  height: 555px;                           
-}          
+#our-special .price-box:hover {
+  border-color: var(--red-col) !important;
+}
+#our-special .left-sec {
+  background-color: var(--red-col);
+}
+#our-special .price-border {
+  width: 100%;
+  box-shadow: 4px 4px #d3b9c2;
+  font-size: 1.6rem;
+  padding: 8px 0px;
+  transform: inherit;
+  border-width: 0.35rem;
+}
+#our-special span {
+  color: var(--red-col);
+}
+#our-special .fix-height {
+  height: 555px;
+}
 
-@media only screen and (max-width:991px){   
- #our-special .fix-height{    
-    height: 250px;                                                         
-  } 
+@media only screen and (max-width: 991px) {
+  #our-special .fix-height {
+    height: 250px;
+  }
 }
-/* our special ends */            
+/* our special ends */
 
 /* place sec starts */
-#place-sec{
-  background: var(--yellow-col);          
+#place-sec {
+  background: var(--yellow-col);
 }
-#place-sec .place-btn{
-  box-shadow: 4px 4px 0 0 rgba(120,10,52,0.3) !important;      
-  transform: inherit;      
-  padding: 9px 23px;      
-  border-width: .35rem;                                   
+#place-sec .place-btn {
+  box-shadow: 4px 4px 0 0 rgba(120, 10, 52, 0.3) !important;
+  transform: inherit;
+  padding: 9px 23px;
+  border-width: 0.35rem;
 }
-#place-sec .place-box{               
-  border: 2px solid #42170d;   
-  color: #42170d;  
+#place-sec .place-box {
+  border: 2px solid #42170d;
+  color: #42170d;
 }
-#place-sec .place-name span{
-  font-size: 1.6rem; 
-} 
-#place-sec .place-name{
-  border-left: 2px solid #42170d; 
+#place-sec .place-name span {
+  font-size: 1.6rem;
 }
-#place-sec .locate-icon .bi{            
-  font-size: 28px;  
+#place-sec .place-name {
+  border-left: 2px solid #42170d;
+}
+#place-sec .locate-icon .bi {
+  font-size: 28px;
 }
 
-@media only screen and (max-width:767px){
-  .map-box{
-    text-align: center; 
+@media only screen and (max-width: 767px) {
+  .map-box {
+    text-align: center;
   }
-  .map-box p{
-    width: 100% !important;  
+  .map-box p {
+    width: 100% !important;
   }
-  h5{
-    font-size: 1.8rem;  
-  } 
-  #place-sec .place-name{
-    border-left: 0 !important; 
+  h5 {
+    font-size: 1.8rem;
+  }
+  #place-sec .place-name {
+    border-left: 0 !important;
     margin-top: 8px;
-    text-align: center; 
-  } 
+    text-align: center;
+  }
 }
-/* place sec ends */  
+/* place sec ends */
 
+.btn.active,
+.btn.show,
+.btn:first-child:active,
+:not(.btn-check) + .btn:active {
+  background-color: inherit !important;
+} 
