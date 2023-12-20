@@ -232,6 +232,17 @@ p {
   transition: 0.4s linear;
   border-color: var(--brown-col);
 }
+.btn.active,    
+.btn.show,
+.btn:first-child:active,
+:not(.btn-check) + .btn:active {
+  background-color: inherit !important;
+  border-color: inherit !important;
+}    
+.btn:focus-visible {
+  border-color: inherit !important;            
+}  
+
 .bottom-img {
   position: absolute;
   bottom: 0;
@@ -395,9 +406,8 @@ p {
 }
 /* place sec ends */
 
-.btn.active,
-.btn.show,
-.btn:first-child:active,
-:not(.btn-check) + .btn:active {
-  background-color: inherit !important;
-} 
+     
+
+
+
+
