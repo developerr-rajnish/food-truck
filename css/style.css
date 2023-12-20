@@ -219,7 +219,7 @@ p {
   background: var(--white-col);
   color: var(--brown-col);
   border-radius: inherit;
-  border: 3px solid var(--brown-col);
+  border: 3px solid var(--brown-col); 
   padding: 13px 19px;
   font-size: 1.4rem;
   font-weight: 700;
@@ -236,12 +236,9 @@ p {
 .btn.show,
 .btn:first-child:active,
 :not(.btn-check) + .btn:active {
-  background-color: inherit !important;
-  border-color: inherit !important;
+  background-color: var(--brown-col) !important;
+  border-color: var(--brown-col) !important;
 }    
-.btn:focus-visible {
-  border-color: inherit !important;            
-}  
 
 .bottom-img {
   position: absolute;
