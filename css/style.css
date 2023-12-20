@@ -503,7 +503,7 @@ p {
 
 /* menu banner starts */        
 .menu-banner {
-  height: 100vh !important;     
+  height: 93vh !important;     
 }
 .menu-banner::after {                                                   
   background-image: url(../images/foodtruck2-section-bg2.png); 
