@@ -32,6 +32,12 @@ h5 {
   padding-top: 60px;
   padding-bottom: 60px;
 }
+h1{
+  font-size: 9rem;
+  font-weight: 800; 
+  line-height: 90px; 
+  color: var(--white-col); 
+} 
 h3 {
   font-size: 5.5rem;
   font-weight: 800;
@@ -492,3 +498,84 @@ p {
   color: var(--yellow-col);
 }
 /* copyright ends */
+
+     /*--------------------------------------- menu css-------------------------------------------*/
+
+/* menu banner starts */        
+.menu-banner {
+  height: 100vh !important;     
+}
+.menu-banner::after {                                                   
+  background-image: url(../images/foodtruck2-section-bg2.png); 
+}
+.menu-banner .menu-title{      
+  color: var(--yellow-col); 
+  font-size: 2.4rem; 
+}
+@media only screen and (max-width:991px){
+  h1{
+    font-size: 5.4rem; 
+    line-height: 54px;  
+  }
+  .menu-banner .menu-title{       
+    font-size: 1.4rem;  
+  }
+}
+/* menu banner ends */    
+
+/* menu our special starts */
+.menu-our-special{
+  background-color: #fef9eb;    
+}
+.menu-our-special .menu-left-sec{
+  background-image: url(../images/foodtruck2-menu-pic2.webp); 
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-position: center;   
+  position: relative;                                                
+}
+.menu-our-special .menu-left-sec .side-price{
+  background-color: var(--red-col); 
+  width: 240px;   
+  position: absolute;
+  bottom: 150px; 
+  right: 0;   
+}
+.menu-our-special .price-name{
+    padding: 10px 0px 15px 20px;    
+} 
+
+.menu-our-special .menu-left-sec .side-price .p-name{
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 30px;  
+  font-family: var(--secondary-font) !important;   
+}
+.menu-our-special .menu-left-sec .side-price .p-price{ 
+  font-family: var(--secondary-font) !important;    
+  font-size: 5.5rem;
+  font-weight: 800; 
+  line-height: 65px; 
+}
+
+@media only screen and (max-width:991px){
+  .menu-our-special .menu-left-sec{
+    height: 300px;                                         
+  }
+  .menu-our-special .menu-left-sec .side-price{
+    bottom: auto !important;  
+    top: 0; 
+    right: 0;   
+  }
+  .menu-our-special .menu-left-sec .side-price .p-name{
+    font-size: 1.3rem; 
+  }
+  .menu-our-special .menu-left-sec .side-price .p-price{   
+    font-size: 3.3rem;
+  }
+  .menu-our-special .menu-left-sec .side-price {        
+    width: 175px;
+}
+}
+/* menu our special ends */              
+
