@@ -55,6 +55,7 @@ h4 {
 }
 h4 span {
   color: #ff5559;
+  font-family: var(--secondary-font) !important;          
 }
 h5 {
   font-size: 2.4rem;
@@ -502,25 +503,25 @@ p {
      /*--------------------------------------- menu css-------------------------------------------*/
 
 /* menu banner starts */        
-.menu-banner {
+.new-banner { 
   height: 100vh !important;     
 } 
 .menu-banner::after {                                                   
   background-image: url(../images/foodtruck2-section-bg2.png); 
 }
-.menu-banner .menu-title{      
+.new-banner .banner-title{       
   color: var(--yellow-col); 
   font-size: 2.4rem; 
 }
 @media only screen and (max-width:991px){
-  .menu-banner {
-    height: 93vh !important;     
-  } 
+  .new-banner { 
+    height: 90vh !important;     
+  }                                       
   h1{
     font-size: 5.4rem; 
     line-height: 54px;  
   }
-  .menu-banner .menu-title{       
+  .new-banner .banner-title{        
     font-size: 1.4rem;  
   }
 }
@@ -592,3 +593,98 @@ p {
 }
 /* menu our special ends */              
 
+/*--------------------------------------- about css-------------------------------------------*/
+
+/* about banner starts */           
+.about-banner::after {                                                   
+  background-image: url(../images/foodtruck2-section-bg3.png);   
+}     
+/* about banner ends */  
+
+/* about-food-contant starts */
+.about-food-contant{
+  background-color: #fef9eb;  
+  background-image: none !important;     
+}
+.c-btn{    
+    font-size: 1.6rem;   
+    box-shadow: 4px 4px 0 0 rgba(66, 68, 90, 0.3); 
+    transform: inherit !important;
+    padding: 9px 24px;
+    border-width: 0.35rem; 
+}
+.about-food-contant .right-text,
+.about-food-contant .bottom-sec .left-img { 
+  max-width: 90%; 
+}
+
+/* swiper slider */ 
+.mySwiper{
+  position: relative;
+  top: 100px;  
+}
+.slide_box {
+  width: 100%; 
+}
+.slide_box img {
+  width: 100%;
+}
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-size: 40px;                
+  font-weight: bold;
+  color: var(--white-col);   
+}
+.swiper-button-next,
+.swiper-button-prev {
+  background-color: transparent;  
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}                  
+
+@media only screen and (max-width:767px){
+  .about-food-contant{
+    text-align: center;  
+  }  
+  .c-btn{     
+    box-shadow: 4px 4px 0 0 rgba(66, 68, 90, 0.3) !important; 
+  }
+  .mySwiper{  
+    top: 80px;   
+  }
+  .swiper-button-next:after,
+  .swiper-button-prev:after {
+  font-size: 25px;                
+}
+}               
+/* about-food-contant ends */
+
+/* about-cooking-sec starts */
+.custom-padd-top{
+  padding-top: 180px; 
+}        
+@media (max-width:767px){
+  .custom-padd-top{
+    padding-top: 80px;  
+  }  
+}            
+/* about-cooking-sec ends */ 
+
+/* our chef starts */
+.our-chef-img{                     
+  background-image: url(../images/foodtruck2-wrapbg-2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; 
+}
+.our-chef-right{
+  background-color: #fef9eb;  
+}
+
+@media (max-width:767px){
+  .our-chef-img{
+    height: 500px;
+  }
+}
+/* our chef ends */   

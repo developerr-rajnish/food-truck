@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- required meta tag --> 
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- title -->
+    <title>Food Truck</title>
+    <!-- fav icon -->
+    <link rel="icon" type="image/x-icon" href="/images/fav-icon.png" />
+    <!-- bootstrap css   --> 
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"> 
+    <!-- aos css -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- bootstrap icon cdn -->  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"> 
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css" />       
+  </head>
+  <body>
+    <!-- header starts -->
+    <header id="header" class="fixed-top pt-3">                    
+      <div class="container">
+        <!-- navigation -->
+        <nav class="navbar navbar-expand-lg p-lg-0">          
+          <a class="navbar-brand" href="#"
+            ><img class="logo" src="images/foodtruck2.svg" alt="navbar-brand"     
+          /></a>
+
+          <ul class="navbar-nav nav-menu ms-auto">                                  
+            <li class="nav-item nav1"> 
+              <a
+                onclick="navLink1()"
+                class="nav-link"
+                aria-current="page"
+                href="index.html"       
+                >Home</a
+              >
+            </li>
+            <li class="nav-item nav2 ">       
+              <a onclick="navLink2()" class="nav-link" href="menu.html">Menu</a>
+            </li>
+            <li class="nav-item nav3 active">         
+              <a onclick="navLink3()" class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item nav4">
+              <a onclick="navLink4()" class="nav-link" href="our-kitchen.html">Our kitchen</a>
+            </li>
+            <li class="nav-item nav5">
+              <a onclick="navLink5()" class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>     
+
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>                                  
+          </div>
+        </nav>                                     
+      </div>
+    </header>
+    <!-- header ends -->                            
+
+    <!-- about-banner starts -->                                  
+        <section class="banner new-banner about-banner">            
+          <div class="container">     
+          <div class="row"> 
+            <div class="col-12 text-center">                                
+                <img src="images/foodtruck2-icon3.svg" alt="img">        
+                <h4 class="banner-title pt-4 pb-5 mb-0">ABOUT US</h4>      
+                <h1>FOR THE LOVE OF COOKING</h1>    
+            </div>
+          </div>
+        </div>     
+        </section>   
+    <!-- about-banner close -->     
+    
+    <!-- about food content starts --> 
+    <section id="food-contant" class="padding pb-md-0 about-food-contant">          
+        <div class="container">
+          <div class="row align-items-center">          
+            <div class="col-12 col-md-6">            
+              <h3>TINCIDUNT EU UT A RISUS <span>ET VULPUTATE LEO ULTRICES.</span></h3>                      
+              <div class="food-logo py-5">      
+                 <img src="images/foodtruck2-pic1.webp" alt="img">         
+              </div>
+              <p class="max-width">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+
+              <a href="#"><button type="button" class="btn c-btn btn-primary mt-4 mt-md-5">         
+                Read more   
+               </button>                            
+                </a>         
+
+            </div>      
+  
+            <div class="col-12 col-md-6 pt-5 mt-5 mt-md-0 pt-md-0">         
+              <img class="w-75 mx-auto d-block" src="images/foodtruck2-pic5.webp" alt="img">    
+            </div> 
+
+            <div class="col-12 full-img padding my-md-5">       
+                <img class="w-100" src="images/foodtruck2-sep1.svg" alt="full-img"> 
+            </div>
+          </div>     
+          
+          <div class="row bottom-sec align-items-md-center"> 
+            <div class="col-md-6">  
+                <img class="left-img mx-auto d-block" src="images/foodtruck2-pic6.webp" alt="img">       
+            </div> 
+
+            <div class="col-md-6 pt-4 pt-md-0"> 
+                <div class="right-text mx-auto">  
+                <h4>PRAESENT SIT FERMENTUM, ENIM, LECTUS TELLUS MAURIS. LAOREET EU, AT PLATEA SIT.</h4> 
+                <p class="lh-base pt-4 pt-md-5 pb-2">Aliquam sem purus tempus tempus nisi consectetur eget metus. Id egestas faucibus morbi a cursus quis tortor id. Est malesuada ullamcorper ante bibendum commodo venenatis. Adipiscing id diam dignissim eget.</p>     
+                <p class="lh-base">Est malesuada ullamcorper ante bibendum commodo venenatis. Adipiscing id diam dignissim eget.</p>
+
+                <a href="#"><button type="button" class="btn c-btn btn-primary mt-5">         
+                    Our kitchen  
+                   </button>                            
+                    </a>  
+                </div>    
+            </div> 
+
+          </div>
+        </div>
+
+        <div class="swiper mySwiper">            
+          <div class="swiper-wrapper">
+            <div class="swiper-slide text-center">
+              <div class="slide_box">
+                <img class="img-fluid" src="images/foodtruck2-menu-pic2.webp" alt="img" />
+              </div>
+            </div>
+  
+            <div class="swiper-slide text-center">
+              <div class="slide_box">
+                <img class="img-fluid" src="images/foodtruck2-menu-pic3.webp" alt="img" />
+              </div>
+            </div>
+  
+            <div class="swiper-slide text-center">
+              <div class="slide_box">
+                <img class="img-fluid" src="images/foodtruck2-menu-pic5.webp" alt="img" />
+              </div>
+            </div>
+  
+            <div class="swiper-slide text-center">
+              <div class="slide_box">
+                <img class="img-fluid" src="images/foodtruck2-menu-pic2.webp" alt="img" />
+              </div>
+            </div>
+  
+            <div class="swiper-slide text-center">
+              <div class="slide_box">
+                <img class="img-fluid" src="images/foodtruck2-menu-pic3.webp" alt="img" />
+              </div>
+            </div>
+  
+            <div class="swiper-slide text-center">
+              <div class="slide_box">
+                <img class="img-fluid" src="images/foodtruck2-menu-pic5.webp" alt="img" />
+              </div>
+            </div>                
+          </div>
+        
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>                
+        </div>             
+    </section>                         
+    <!-- about food content ends -->            
+
+    <!-- about cooking sec starts -->
+    <section id="cooking-sec" class="padding about-cooking-sec custom-padd-top">        
+        <div class="container">
+          <div class="row">
+          <div class="col-12 text-center">  
+            <img src="images/foodtruck2-icon3.svg" alt="img">        
+            <h3 class="cooking-title text-white pt-4">FOR THE LOVE OF <br> <span>COOKING</span></h3> 
+          </div>   
+        </div>  
+        
+        <div class="row pt-5">                   
+          <div class="col-md-3 d-flex flex-column justify-content-center pt-4 pt-md-0"> 
+            <div class="num-box text-center"> 
+            <h3 class="text-white num-title mb-0">512</h3>         
+            <img class="my-4" src="images/foodtruck2-icon2.svg" alt="img">   
+            <p class="text-white w-75 mx-auto">Elit lorem urna, at elementum massa blandit sapien cras dictumst.</p>
+          </div>
+          
+          <div class="num-box text-center pt-5"> 
+            <h3 class="text-white num-title mb-0">24</h3>        
+            <img class="my-4" src="images/foodtruck2-icon2.svg" alt="img">   
+            <p class="text-white w-75 mx-auto">Et metus porta pretium ante odio suscipit tellus conubia</p>
+          </div>          
+        </div>                              
+  
+          <div class="col-md-6">      
+            <img class="w-100" src="images/foodtruck2-pic4.webp" alt="img">  
+          </div>
+  
+          <div class="col-md-3 d-flex flex-column justify-content-center pt-4 pt-md-0">    
+            <div class="num-box text-center">  
+            <h3 class="text-white num-title mb-0">33</h3>        
+            <img class="my-4" src="images/foodtruck2-icon2.svg" alt="img">   
+            <p class="text-white w-75 mx-auto">Lorem vitae semper habitasse facilisis.</p> 
+          </div>
+          
+          <div class="num-box text-center pt-5">                         
+            <h3 class="text-white num-title mb-0">348</h3>         
+            <img class="my-4" src="images/foodtruck2-icon2.svg" alt="img">   
+            <p class="text-white w-75 mx-auto">At praesent pellentesque commodo per felis aenean nec nisi varius.</p>
+          </div>          
+        </div>   
+        </div>
+        </div>
+    </section>        
+    <!-- about cooking sec ends -->  
+    
+    <!-- our chef starts -->          
+    <section class="our-chef">    
+      <div class="container-fluid"> 
+        <div class="row">
+          <div class="col-md-6 our-chef-img">   
+              <!-- background image -->  
+          </div>
+
+         
+            <div class="col-md-6 right-sec our-chef-right padding">                                     
+              <div class="top-heading text-center">  
+              <img src="images/foodtruck2-icon1.svg" alt="img">                       
+              <h3 class="mt-4 mb-5"><span>OUR</span> CHEF</h3>  
+              <img src="images/foodtruck2-quote.svg" alt="img">                                         
+              <p class="pt-4 lh-base w-75 mx-auto">Viverra neque velit, eget purus facilisis scelerisque tempus in nullam. Mattis pellentesque risus pharetra, egestas. Proin elit imperdiet nec nec semper augue. Viverra ut in arcu donec dignissim amet. Malesuada hendrerit malesuada sed ac id sed ac eu cursus.</p>  
+              <p class="pt-2 lh-base w-75 mx-auto">Nec pulvinar habitant id praesent in mi est. Urna, eget nunc amet hac dolor. Amet pellentesque sodales massa rutrum vestibulum. Consequat nibh dui id vulputate.</p>
+              <img class="mt-5" src="images/foodtruck2-signature.svg" alt="img"> 
+            </div>        
+            </div>      
+         
+        </div>
+      </div>
+    </section>
+    <!-- our chef ends -->     
+                                          
+    <!-- footer starts -->         
+    <footer id="footer" class="padding">      
+      <div class="top-footer-img">                 
+        <img class="w-100 h-100" src="images/foodtruck2-footer-bg.webp" alt="img">   
+      </div>  
+      <div class="container py-md-4">   
+        <div class="row">
+          <div class="col-md-4">
+            <h4 class="text-white mb-4">PORTERUM VORTE</h4>   
+            <p class="text-white">Lorem ipsum dolor sit amet, consectetur <br class="break-line"> adipisicing elit, sed do eiusmod tempor.</p>
+          </div> 
+
+          <div class="col-md-4 pt-5 pt-md-0">  
+            <h4 class="text-white mb-4">CONTACT WITH US</h4>  
+          <div class="contact"> 
+            <a class="mb-3" href="#">noreply@envato.com</a> 
+            <br> 
+            <a class="mb-3" href="#">+61 (0) 3 8376 6284</a>  
+          </div> 
+            <p class="text-white">Level 13, 2 Elizabeth St,<br> 
+              Melbourne, Victoria 3000,<br> 
+              Australia</p>       
+          </div>
+
+          <div class="col-md-4 pt-5 pt-md-0">  
+            <h4 class="text-white mb-4">OUR LINKS</h4>   
+            <li><a href="#">Duis autem</a></li> 
+            <li><a href="#">Delenit augus</a></li>
+            <li><a href="#">Euismod tincidunt</a></li> 
+            <li><a href="#">Commodo</a></li>
+          </div>
+        </div>
+
+      </div>
+    </footer>
+    <!-- footer ends -->   
+    
+    <!-- copyright starts -->
+    <div class="copyright py-5">                                                  
+      <div class="container">
+        <div class="row">
+          <div class="col-12">               
+            <p class="text-white text-center">Copyright © 2024 All rights reserved || Made with <i class="bi bi-heart-fill"></i> by <span>RAJNISH</span></p> 
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- copyright ends -->        
+
+    <!-- bootstrap JS -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>       
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script> 
+    <!-- aos js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- initialize aos -->
+    <script>
+      AOS.init({
+        offset: 200,
+        duration: 500,
+      });
+    </script>
+    <!-- custom js -->
+    <script src="js/script.js"></script>            
+  </body>
+</html>     
+
