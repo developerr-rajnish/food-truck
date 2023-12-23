@@ -14,7 +14,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: var(--primary-font);
+  font-family: var(--primary-font); 
   /* border: 1px solid green;  */
 }
 html {
@@ -31,6 +31,9 @@ h5 {
 .padding {
   padding-top: 60px;
   padding-bottom: 60px;
+}
+.padding-top{  
+  padding-top: 60px;
 }
 h1{
   font-size: 9rem;
@@ -278,7 +281,7 @@ p {
 }
 /* banner ends */
 
-/* food contant starts */
+/* food contant starts */ 
 #food-contant {
   width: 100%;
   /* height: 90vh;      */
@@ -418,7 +421,7 @@ p {
 #cooking-sec .cooking-title span {
   color: var(--red-col) !important;
 }
-#cooking-sec .p-title {
+.p-title {
   max-width: 40%;
   margin: 0 auto;
 }
@@ -427,12 +430,12 @@ p {
 }
 
 @media only screen and (max-width: 1199px) {
-  #cooking-sec .p-title {
+  .p-title {
     max-width: 60%;
   }
 }
 @media only screen and (max-width: 767px) {
-  #cooking-sec .p-title {
+  .p-title {         
     max-width: 100%;
   }
   #cooking-sec .num-title {
@@ -688,3 +691,124 @@ p {
   }
 }
 /* our chef ends */   
+
+/*--------------------------------------- our kitchen css-------------------------------------------*/
+
+/* our kitchen banner starts */            
+.our-kitchen-banner::after {                                                   
+  background-image: url(../images/foodtruck2-section-bg2.png);     
+}    
+/* our kitchen banner ends */    
+
+/* kitchen-sec starts */      
+.kitchen-sec{
+  background-color: var(--brown-col);  
+}
+@media (max-width:767px){
+  .kitchen-sec img{ 
+    width: 85% !important;          
+  }
+  .break{          
+    display: none;                 
+  }
+}
+/* kitchen-sec ends */      
+
+/* love-cooking-sec starts */
+.love-cooking-sec{
+  background-image: url(../images/foodtruck2-section-bg4.webp);
+  background-attachment: fixed;  
+  background-size: cover;  
+  background-repeat: repeat; 
+  background-position: center;         
+  height: 93vh;  
+}
+
+.love-cooking-title{                             
+  text-shadow: 7px 7px 0 #EE202E;  
+  line-height: 108px;     
+}
+@media (max-width:991px){  
+  .love-cooking-sec{      
+    height: 80vh;  
+  }
+  .love-cooking-title{      
+    font-size: 5rem !important;                        
+    line-height: 60px;     
+  }
+}
+/* love-cooking-sec ends */    
+
+/* big-sec starts */
+.big-sec{
+  background-color: #fef9eb;             
+  background-image: url(../images/foodtruck2-sectionbg-1.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-position-y: 500px;             
+} 
+.big-sec h3{
+  color: #ea4732;  
+}
+.span-title{
+  font-size: 1.7rem;
+  font-weight: 300;
+  line-height: 26px; 
+  color: #fe3220;  
+}
+.food-box-contant{ 
+  background-color: var(--red-col);  
+  background-image: url(../images/foodtruck2-wrap-bg2.png);   
+  background-size: cover;                    
+  background-position: center; 
+  background-repeat: no-repeat;     
+}
+.main-food-box{      
+  position: relative;     
+}                             
+
+.food-box-img{
+  width: 400px;     
+  position: absolute;  
+  top: 85px;                                        
+  right: -230px;    
+}
+.food-box-p{
+  max-width: 50%;  
+}   
+.foods-btn{
+  box-shadow: 4px 4px 0 0 rgba(120, 10, 52, 0.3) !important;
+}                    
+@media (max-width:991px){       
+  .food-box-contant{
+    padding-top: 150px !important;  
+  }
+  .main-food-box{      
+    position: inherit !important;          
+    text-align: center;  
+  }     
+  .food-box-img{  
+    width: auto !important;          
+    position: inherit !important;      
+  }
+  .food-box-img img{
+    width: 70% !important;   
+    display: inline-block;  
+    position: relative;
+    top: 100px;                   
+  }                           
+}  
+@media (max-width:767px){
+  .big-sec{
+    background-position-y: 570px; 
+  }  
+  .span-title{
+    font-size: 1.3rem; 
+  }
+  .food-box-p{
+    max-width: 90%;  
+  }
+}
+/* big-sec ends */         
+
