@@ -486,9 +486,12 @@ p {
     display: none;
   }
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 767px) {         
   .top-footer-img {
     height: 15px;
+  }
+  .footer-padd {                                        
+    padding-bottom: 30px !important;    
   }
 }
 /* footer ends */
@@ -895,9 +898,9 @@ p {
     line-height: 19px; 
   } 
   .custom-margin{
-    margin: 50px auto;        
+    margin: 55px auto;        
   }  
   .contact-banner{
-    height: 135vh !important;               
+    height: 130vh !important;                  
   }         
 }
