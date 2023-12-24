@@ -894,8 +894,9 @@ p {
     font-size: 1.3rem;  
     line-height: 19px; 
   } 
-  .custom-margin{
-    margin: 65px auto;     
-  }
+ .contact-banner{
+    height: 120vh !important;    
+  }              
+ 
 }
    
