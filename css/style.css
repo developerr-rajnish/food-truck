@@ -810,5 +810,92 @@ p {
     max-width: 90%;  
   }
 }
-/* big-sec ends */         
+/* big-sec ends */      
 
+/*--------------------------------------- contact css-------------------------------------------*/
+
+/* contact banner*/     
+.contact-banner{
+  height: 150vh !important;  
+}         
+.contact-banner::after {                                                       
+  background-image: url(../images/foodtruck2-section-bg5.png);    
+  background-size: contain; 
+}    
+.contact-banner .contact-banner-title{
+  color: var(--yellow-col); 
+}
+.contact-h5{
+  font-size: 2rem;           
+  font-weight: 300; 
+  color: var(--white-col); 
+  line-height: 30px;                 
+}
+.contact-span{
+  font-size: 1.6rem; 
+  font-weight: 400; 
+}
+.custom-margin{
+  margin: 80px auto;    
+}
+.contact-form h3 span{
+  color: #fe3220 !important;   
+}
+
+/* contact form*/ 
+.contact-form{
+  background-image: url(../images/foodtruck2-section-bg6.webp);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center; 
+}
+.contact-form .myform{
+  background-color: #FFF9E9;          
+  padding: 50px 40px; 
+}
+.form-btn{
+  box-shadow: inherit !important;   
+  padding: 9px 20px !important;  
+  font-size: 1.6rem;  
+  border-width: .35rem !important; 
+}
+.myform ::placeholder{
+  color: rgb(156 137 125);   
+  font-size: 1.5rem; 
+  font-weight: 400;          
+}
+.myform .input-padding, #Textarea{   
+  padding: 14px 11px;     
+}
+.myform .mylabel{
+  color: var(--dark-brown-col); 
+  font-size: 1.4rem;           
+  line-height: 24px;    
+  font-size: 400;      
+}
+.myform .mylabel span{
+  color: var(--red-col);  
+}
+.myform .check{   
+  color: var(--dark-brown-col); 
+  font-size: 1.4rem;  
+  border-radius: 2px !important;
+  border-color: var(--dark-brown-col);  
+}
+.form-check-input:focus {
+  box-shadow: inherit;           
+} 
+.form-check-input:checked { 
+  border: 0;
+}
+@media (max-width:767px) {           
+  .contact-h5, .contact-span{                 
+    font-size: 1.3rem;  
+    line-height: 19px; 
+  } 
+  .custom-margin{
+    margin: 65px auto;     
+  }
+}
+   
