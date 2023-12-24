@@ -895,10 +895,10 @@ p {
     line-height: 19px; 
   } 
   .custom-margin{
-    margin: 65px auto;     
+    margin: 60px auto;      
   }  
   .contact-banner{
-    height: 140vh !important;                
+    height: 145vh !important;               
   }         
 }
    
