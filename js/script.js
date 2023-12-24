@@ -71,7 +71,7 @@ document.addEventListener("DOMContentLoaded", function () {
     var header = document.querySelector("header");
     var logo = document.querySelector(".logo");
 
-    if (scroll > 20) { 
+    if (scroll > 20) {
       header.classList.add("add-me");
       logo.classList.add("add-size");
     } else {
@@ -81,7 +81,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-// swiper slider js 
+// swiper slider js
 var swiper = new Swiper(".mySwiper", {
   slidesPerView: 3,
   spaceBetween: 20,
@@ -90,10 +90,9 @@ var swiper = new Swiper(".mySwiper", {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
-
-  breakpoints: { 
+  breakpoints: {
     1200: {
-      slidesPerView: 3,  
+      slidesPerView: 3,
       spaceBetween: 20,
     },
   },
