@@ -81,38 +81,39 @@ p {
 }
 .nav-item {
   position: relative;
-  transition: 0.5s;
+  transition: 0.5s;         
   margin: 0 15px;
   padding: 0 7px;
 }
-.nav-item .nav-link {
+.nav-item .nav-link {             
   color: var(--white-col);
   font-size: 1.6rem;
   line-height: 28px;
   font-weight: 700;
 }
-.nav-menu .active a {
-  color: var(--yellow-col);
+.nav-item .active{                        
+  color: var(--yellow-col) !important;    
 }
-.nav-item.active::after {
-  width: 100%;
-}
-.nav-item::after {
+.nav-item::after {          
   content: "";
-  width: 0%;
+  width: 0%;                  
   height: 4px;
   position: absolute;
   top: 100%;
   left: 0;
-  background-color: var(--yellow-col);
-  transition: 0.5s;
-}
-.nav-item:hover::after {
+  background-color: var(--yellow-col);    
+  transition: 0.5s;              
+}   
+.nav-item:hover::after {              
   width: 100%;
-}
-.nav-item:hover .nav-link {
+}                                                                                      
+.nav-item.active::after {                
+  width: 100%;                    
+}                                     
+.nav-item:hover .nav-link {          
   color: var(--yellow-col);
-}
+}     
+
 .hamburger {
   display: none;
   position: relative;
