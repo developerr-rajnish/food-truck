@@ -14,7 +14,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: var(--primary-font); 
+  font-family: var(--primary-font);
   /* border: 1px solid green;  */
 }
 html {
@@ -32,15 +32,15 @@ h5 {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-.padding-top{  
+.padding-top {
   padding-top: 60px;
 }
-h1{
+h1 {
   font-size: 9rem;
-  font-weight: 800; 
-  line-height: 90px; 
-  color: var(--white-col); 
-} 
+  font-weight: 800;
+  line-height: 90px;
+  color: var(--white-col);
+}
 h3 {
   font-size: 5.5rem;
   font-weight: 800;
@@ -58,7 +58,7 @@ h4 {
 }
 h4 span {
   color: #ff5559;
-  font-family: var(--secondary-font) !important;          
+  font-family: var(--secondary-font) !important;
 }
 h5 {
   font-size: 2.4rem;
@@ -81,38 +81,38 @@ p {
 }
 .nav-item {
   position: relative;
-  transition: 0.5s;         
+  transition: 0.5s;
   margin: 0 15px;
   padding: 0 7px;
 }
-.nav-item .nav-link {             
+.nav-item .nav-link {
   color: var(--white-col);
   font-size: 1.6rem;
   line-height: 28px;
   font-weight: 700;
 }
-.nav-item .active{                        
-  color: var(--yellow-col) !important;    
+.nav-item .active {
+  color: var(--yellow-col) !important;
 }
-.nav-item::after {          
+.nav-item::after {
   content: "";
-  width: 0%;                  
+  width: 0%;
   height: 4px;
   position: absolute;
   top: 100%;
   left: 0;
-  background-color: var(--yellow-col);    
-  transition: 0.5s;              
-}   
-.nav-item:hover::after {               
+  background-color: var(--yellow-col);
+  transition: 0.5s;
+}
+.nav-item:hover::after {
   width: 100%;
-}                                                                                      
-.nav-item.active::after {                
-  width: 100%;                    
-}                                     
-.nav-item:hover .nav-link {          
+}
+.nav-item.active::after {
+  width: 100%;
+}
+.nav-item:hover .nav-link {
   color: var(--yellow-col);
-}     
+}
 
 .hamburger {
   display: none;
@@ -282,7 +282,7 @@ p {
 }
 /* banner ends */
 
-/* food contant starts */ 
+/* food contant starts */
 #food-contant {
   width: 100%;
   /* height: 90vh;      */
@@ -436,7 +436,7 @@ p {
   }
 }
 @media only screen and (max-width: 767px) {
-  .p-title {         
+  .p-title {
     max-width: 100%;
   }
   #cooking-sec .num-title {
@@ -487,12 +487,12 @@ p {
     display: none;
   }
 }
-@media only screen and (max-width: 767px) {         
+@media only screen and (max-width: 767px) {
   .top-footer-img {
     height: 15px;
   }
-  .footer-padd {                                        
-    padding-bottom: 30px !important;    
+  .footer-padd {
+    padding-bottom: 30px !important;
   }
 }
 /* footer ends */
@@ -507,401 +507,403 @@ p {
 }
 /* copyright ends */
 
-     /*--------------------------------------- menu css-------------------------------------------*/
+/*--------------------------------------- menu css-------------------------------------------*/
 
-/* menu banner starts */        
-.new-banner { 
-  height: 100vh !important;     
-} 
-.menu-banner::after {                                                   
-  background-image: url(../images/foodtruck2-section-bg2.png); 
+/* menu banner starts */
+.new-banner {
+  height: 100vh !important;
 }
-.new-banner .banner-title{       
-  color: var(--yellow-col); 
-  font-size: 2.4rem; 
+.menu-banner::after {
+  background-image: url(../images/foodtruck2-section-bg2.png);
 }
-@media only screen and (max-width:991px){
-  .new-banner { 
-    height: 90vh !important;     
-  }                                       
-  h1{
-    font-size: 5.4rem; 
-    line-height: 54px;  
+.new-banner .banner-title {
+  color: var(--yellow-col);
+  font-size: 2.4rem;
+}
+@media only screen and (max-width: 991px) {
+  .new-banner {
+    height: 90vh !important;
   }
-  .new-banner .banner-title{        
-    font-size: 1.4rem;  
+  h1 {
+    font-size: 5.4rem;
+    line-height: 54px;
+  }
+  .new-banner .banner-title {
+    font-size: 1.4rem;
   }
 }
-/* menu banner ends */    
+/* menu banner ends */
 
 /* menu our special starts */
-.menu-our-special{
-  background-color: #fef9eb;    
+.menu-our-special {
+  background-color: #fef9eb;
 }
-.menu-our-special .menu-left-sec{
-  background-image: url(../images/foodtruck2-menu-pic2.webp); 
+.menu-our-special .menu-left-sec {
+  background-image: url(../images/foodtruck2-menu-pic2.webp);
   background-repeat: no-repeat;
-  background-size: cover; 
-  background-position: center;   
-  position: relative;                                                
+  background-size: cover;
+  background-position: center;
+  position: relative;
 }
-.menu-our-special .second-menu-left-sec{
-  background-image: url(../images/foodtruck2-menu-pic4.webp) !important;  
+.menu-our-special .second-menu-left-sec {
+  background-image: url(../images/foodtruck2-menu-pic4.webp) !important;
 }
-.menu-our-special .third-menu-left-sec{
-  background-image: url(../images/foodtruck2-menu-pic3.webp) !important;  
+.menu-our-special .third-menu-left-sec {
+  background-image: url(../images/foodtruck2-menu-pic3.webp) !important;
 }
-.menu-our-special .fourth-menu-left-sec{ 
-  background-image: url(../images/foodtruck2-menu-pic5.webp) !important;   
+.menu-our-special .fourth-menu-left-sec {
+  background-image: url(../images/foodtruck2-menu-pic5.webp) !important;
 }
 
-.menu-our-special .menu-left-sec .side-price{
-  background-color: var(--red-col); 
-  width: 240px;   
+.menu-our-special .menu-left-sec .side-price {
+  background-color: var(--red-col);
+  width: 240px;
   position: absolute;
-  bottom: 150px; 
-  right: 0;   
+  bottom: 150px;
+  right: 0;
 }
-.menu-our-special .price-name{
-    padding: 10px 0px 15px 20px;    
-} 
+.menu-our-special .price-name {
+  padding: 10px 0px 15px 20px;
+}
 
-.menu-our-special .menu-left-sec .side-price .p-name{
+.menu-our-special .menu-left-sec .side-price .p-name {
   font-size: 2rem;
   font-weight: 300;
-  line-height: 30px;  
-  font-family: var(--secondary-font) !important;   
+  line-height: 30px;
+  font-family: var(--secondary-font) !important;
 }
-.menu-our-special .menu-left-sec .side-price .p-price{ 
-  font-family: var(--secondary-font) !important;    
+.menu-our-special .menu-left-sec .side-price .p-price {
+  font-family: var(--secondary-font) !important;
   font-size: 5.5rem;
-  font-weight: 800; 
-  line-height: 65px; 
+  font-weight: 800;
+  line-height: 65px;
 }
 
-@media only screen and (max-width:991px){
-  .menu-our-special .menu-left-sec{
-    height: 300px;                                         
+@media only screen and (max-width: 991px) {
+  .menu-our-special .menu-left-sec {
+    height: 300px;
   }
-  .menu-our-special .menu-left-sec .side-price{
-    bottom: auto !important;  
-    top: 0; 
-    right: 0;   
+  .menu-our-special .menu-left-sec .side-price {
+    bottom: auto !important;
+    top: 0;
+    right: 0;
   }
-  .menu-our-special .menu-left-sec .side-price .p-name{
-    font-size: 1.3rem; 
+  .menu-our-special .menu-left-sec .side-price .p-name {
+    font-size: 1.3rem;
   }
-  .menu-our-special .menu-left-sec .side-price .p-price{   
+  .menu-our-special .menu-left-sec .side-price .p-price {
     font-size: 3.3rem;
   }
-  .menu-our-special .menu-left-sec .side-price {        
+  .menu-our-special .menu-left-sec .side-price {
     width: 175px;
+  }
 }
-}
-/* menu our special ends */              
+/* menu our special ends */
 
 /*--------------------------------------- about css-------------------------------------------*/
 
-/* about banner starts */           
-.about-banner::after {                                                   
-  background-image: url(../images/foodtruck2-section-bg3.png);   
-}     
-/* about banner ends */  
+/* about banner starts */
+.about-banner::after {
+  background-image: url(../images/foodtruck2-section-bg3.png);
+}
+/* about banner ends */
 
 /* about-food-contant starts */
-.about-food-contant{
-  background-color: #fef9eb;  
-  background-image: none !important;     
+.about-food-contant {
+  background-color: #fef9eb;
+  background-image: none !important;
 }
-.c-btn{    
-    font-size: 1.6rem;   
-    box-shadow: 4px 4px 0 0 rgba(66, 68, 90, 0.3); 
-    transform: inherit !important;
-    padding: 9px 24px;
-    border-width: 0.35rem; 
+.c-btn {
+  font-size: 1.6rem;
+  box-shadow: 4px 4px 0 0 rgba(66, 68, 90, 0.3);
+  transform: inherit !important;
+  padding: 9px 24px;
+  border-width: 0.35rem;
 }
 .about-food-contant .right-text,
-.about-food-contant .bottom-sec .left-img { 
-  max-width: 90%; 
+.about-food-contant .bottom-sec .left-img {
+  max-width: 90%;
 }
 
-/* swiper slider */ 
-.mySwiper{
+/* swiper slider */
+.mySwiper {
   position: relative;
-  top: 100px;  
+  top: 100px;
 }
 .slide_box {
-  width: 100%; 
+  width: 100%;
 }
 .slide_box img {
   width: 100%;
 }
 .swiper-button-next:after,
 .swiper-button-prev:after {
-  font-size: 40px;                
+  font-size: 40px;
   font-weight: bold;
-  color: var(--white-col);   
+  color: var(--white-col);
 }
 .swiper-button-next,
 .swiper-button-prev {
-  background-color: transparent;  
+  background-color: transparent;
   width: 40px;
   height: 40px;
   border-radius: 100%;
-}                  
+}
 
-@media only screen and (max-width:767px){
-  .about-food-contant{
-    text-align: center;  
-  }  
-  .c-btn{     
-    box-shadow: 4px 4px 0 0 rgba(66, 68, 90, 0.3) !important; 
+@media only screen and (max-width: 767px) {
+  .about-food-contant {
+    text-align: center;
   }
-  .mySwiper{  
-    top: 80px;   
+  .c-btn {
+    box-shadow: 4px 4px 0 0 rgba(66, 68, 90, 0.3) !important;
+  }
+  .mySwiper {
+    top: 80px;
   }
   .swiper-button-next:after,
   .swiper-button-prev:after {
-  font-size: 25px;                
+    font-size: 25px;
+  }
 }
-}               
 /* about-food-contant ends */
 
 /* about-cooking-sec starts */
-.custom-padd-top{
-  padding-top: 180px; 
-}        
-@media (max-width:767px){
-  .custom-padd-top{
-    padding-top: 80px;  
-  }  
-}            
-/* about-cooking-sec ends */ 
+.custom-padd-top {
+  padding-top: 180px;
+}
+@media (max-width: 767px) {
+  .custom-padd-top {
+    padding-top: 80px;
+  }
+}
+/* about-cooking-sec ends */
 
 /* our chef starts */
-.our-chef-img{                     
+.our-chef-img {
   background-image: url(../images/foodtruck2-wrapbg-2.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover; 
+  background-size: cover;
 }
-.our-chef-right{
-  background-color: #fef9eb;  
+.our-chef-right {
+  background-color: #fef9eb;
 }
 
-@media (max-width:767px){
-  .our-chef-img{
+@media (max-width: 767px) {
+  .our-chef-img {
     height: 500px;
   }
 }
-/* our chef ends */   
+/* our chef ends */
 
 /*--------------------------------------- our kitchen css-------------------------------------------*/
 
-/* our kitchen banner starts */            
-.our-kitchen-banner::after {                                                   
-  background-image: url(../images/foodtruck2-section-bg2.png);     
-}    
-/* our kitchen banner ends */    
+/* our kitchen banner starts */
+.our-kitchen-banner::after {
+  background-image: url(../images/foodtruck2-section-bg2.png);
+}
+/* our kitchen banner ends */
 
-/* kitchen-sec starts */      
-.kitchen-sec{
-  background-color: var(--brown-col);  
+/* kitchen-sec starts */
+.kitchen-sec {
+  background-color: var(--brown-col);
 }
-@media (max-width:767px){
-  .kitchen-sec img{ 
-    width: 85% !important;          
+@media (max-width: 767px) {
+  .kitchen-sec img {
+    width: 85% !important;
   }
-  .break{          
-    display: none;                 
+  .break {
+    display: none;
   }
 }
-/* kitchen-sec ends */      
+/* kitchen-sec ends */
 
 /* love-cooking-sec starts */
-.love-cooking-sec{
+.love-cooking-sec {
   background-image: url(../images/foodtruck2-section-bg4.webp);
-  background-attachment: fixed;  
-  background-size: cover;  
-  background-repeat: repeat; 
-  background-position: center;         
-  height: 93vh;  
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: center;
+  height: 93vh;
 }
 
-.love-cooking-title{                             
-  text-shadow: 7px 7px 0 #EE202E;  
-  line-height: 108px;     
+.love-cooking-title {
+  text-shadow: 7px 7px 0 #ee202e;
+  line-height: 108px;
 }
-@media (max-width:991px){  
-  .love-cooking-sec{      
-    height: 80vh;  
+@media (max-width: 991px) {
+  .love-cooking-sec {
+    height: 80vh;
   }
-  .love-cooking-title{      
-    font-size: 5rem !important;                        
-    line-height: 60px;     
+  .love-cooking-title {
+    font-size: 5rem !important;
+    line-height: 60px;
   }
 }
-/* love-cooking-sec ends */    
+/* love-cooking-sec ends */
 
 /* big-sec starts */
-.big-sec{
-  background-color: #fef9eb;             
+.big-sec {
+  background-color: #fef9eb;
   background-image: url(../images/foodtruck2-sectionbg-1.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  background-position-y: 500px;             
-} 
-.big-sec h3{
-  color: #ea4732;  
+  background-position-y: 500px;
 }
-.span-title{
+.big-sec h3 {
+  color: #ea4732;
+}
+.span-title {
   font-size: 1.7rem;
   font-weight: 300;
-  line-height: 26px; 
-  color: #fe3220;  
+  line-height: 26px;
+  color: #fe3220;
 }
-.food-box-contant{ 
-  background-color: var(--red-col);  
-  background-image: url(../images/foodtruck2-wrap-bg2.png);   
-  background-size: cover;                    
-  background-position: center; 
-  background-repeat: no-repeat;     
+.food-box-contant {
+  background-color: var(--red-col);
+  background-image: url(../images/foodtruck2-wrap-bg2.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
-.main-food-box{      
-  position: relative;     
-}                             
+.main-food-box {
+  position: relative;
+}
 
-.food-box-img{
-  width: 400px;     
-  position: absolute;  
-  top: 85px;                                        
-  right: -230px;    
+.food-box-img {
+  width: 400px;
+  position: absolute;
+  top: 85px;
+  right: -230px;
 }
-.food-box-p{
-  max-width: 50%;  
-}   
-.foods-btn{
+.food-box-p {
+  max-width: 50%;
+}
+.foods-btn {
   box-shadow: 4px 4px 0 0 rgba(120, 10, 52, 0.3) !important;
-}                    
-@media (max-width:991px){       
-  .food-box-contant{
-    padding-top: 150px !important;  
+}
+@media (max-width: 991px) {
+  .food-box-contant {
+    padding-top: 150px !important;
   }
-  .main-food-box{      
-    position: inherit !important;          
-    text-align: center;  
-  }     
-  .food-box-img{  
-    width: auto !important;          
-    position: inherit !important;      
+  .main-food-box {
+    position: inherit !important;
+    text-align: center;
   }
-  .food-box-img img{
-    width: 70% !important;   
-    display: inline-block;  
+  .food-box-img {
+    width: auto !important;
+    position: inherit !important;
+  }
+  .food-box-img img {
+    width: 70% !important;
+    display: inline-block;
     position: relative;
-    top: 100px;                   
-  }                           
-}  
-@media (max-width:767px){
-  .big-sec{
-    background-position-y: 570px; 
-  }  
-  .span-title{
-    font-size: 1.3rem; 
-  }
-  .food-box-p{
-    max-width: 90%;  
+    top: 100px;
   }
 }
-/* big-sec ends */      
+@media (max-width: 767px) {
+  .big-sec {
+    background-position-y: 570px;
+  }
+  .span-title {
+    font-size: 1.3rem;
+  }
+  .food-box-p {
+    max-width: 90%;
+  }
+}
+/* big-sec ends */
 
 /*--------------------------------------- contact css-------------------------------------------*/
 
-/* contact banner*/     
-.contact-banner{
-  height: 150vh !important;  
-}         
-.contact-banner::after {                                                       
-  background-image: url(../images/foodtruck2-section-bg5.png);    
-  background-size: contain; 
-}    
-.contact-banner .contact-banner-title{
-  color: var(--yellow-col); 
+/* contact banner*/
+.contact-banner {
+  height: 150vh !important;
 }
-.contact-h5{
-  font-size: 2rem;           
-  font-weight: 300; 
-  color: var(--white-col); 
-  line-height: 30px;                 
+.contact-banner::after {
+  background-image: url(../images/foodtruck2-section-bg5.png);
+  background-size: contain;
 }
-.contact-span{
-  font-size: 1.6rem; 
-  font-weight: 400; 
+.contact-banner .contact-banner-title {
+  color: var(--yellow-col);
 }
-.custom-margin{
-  margin: 80px auto;    
+.contact-h5 {
+  font-size: 2rem;
+  font-weight: 300;
+  color: var(--white-col);
+  line-height: 30px;
 }
-.contact-form h3 span{
-  color: #fe3220 !important;   
+.contact-span {
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+.custom-margin {
+  margin: 80px auto;
+}
+.contact-form h3 span {
+  color: #fe3220 !important;
 }
 
-/* contact form*/ 
-.contact-form{
+/* contact form*/
+.contact-form {
   background-image: url(../images/foodtruck2-section-bg6.webp);
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: repeat;
-    background-position: center; 
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: center;
 }
-.contact-form .myform{
-  background-color: #FFF9E9;          
-  padding: 50px 40px; 
+.contact-form .myform {
+  background-color: #fff9e9;
+  padding: 50px 40px;
 }
-.form-btn{
-  box-shadow: inherit !important;   
-  padding: 9px 20px !important;  
-  font-size: 1.6rem;  
-  border-width: .35rem !important; 
+.form-btn {
+  box-shadow: inherit !important;
+  padding: 9px 20px !important;
+  font-size: 1.6rem;
+  border-width: 0.35rem !important;
 }
-.myform ::placeholder{
-  color: rgb(156 137 125);   
-  font-size: 1.5rem; 
-  font-weight: 400;          
+.myform ::placeholder {
+  color: rgb(156 137 125);
+  font-size: 1.5rem;
+  font-weight: 400;
 }
-.myform .input-padding, #Textarea{   
-  padding: 14px 11px;     
+.myform .input-padding,
+#Textarea {
+  padding: 14px 11px;
 }
-.myform .mylabel{
-  color: var(--dark-brown-col); 
-  font-size: 1.4rem;           
-  line-height: 24px;    
-  font-size: 400;      
+.myform .mylabel {
+  color: var(--dark-brown-col);
+  font-size: 1.4rem;
+  line-height: 24px;
+  font-size: 400;
 }
-.myform .mylabel span{
-  color: var(--red-col);  
+.myform .mylabel span {
+  color: var(--red-col);
 }
-.myform .check{   
-  color: var(--dark-brown-col); 
-  font-size: 1.4rem;  
+.myform .check {
+  color: var(--dark-brown-col);
+  font-size: 1.4rem;
   border-radius: 2px !important;
-  border-color: var(--dark-brown-col);  
+  border-color: var(--dark-brown-col);
 }
 .form-check-input:focus {
-  box-shadow: inherit;           
-} 
-.form-check-input:checked { 
+  box-shadow: inherit;
+}
+.form-check-input:checked {
   border: 0;
 }
-@media (max-width:767px) {           
-  .contact-h5, .contact-span{                 
-    font-size: 1.3rem;  
-    line-height: 19px; 
-  } 
-  .custom-margin{
-    margin: 55px auto;         
-  }  
-  .contact-banner{
-    height: 130vh !important;                  
-  }         
+@media (max-width: 767px) {
+  .contact-h5,
+  .contact-span {
+    font-size: 1.3rem;
+    line-height: 19px;
+  }
+  .custom-margin {
+    margin: 55px auto;
+  }
+  .contact-banner {
+    height: 130vh !important;
+  }
 }
